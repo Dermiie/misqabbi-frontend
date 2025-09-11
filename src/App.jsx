@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import FinishSignUp from './pages/FinishSignUp';
 
 import './App.css';
+import ProductDetails from './pages/ProductDetails';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
           path="/"
           element={
             <MainLayout>
-              <Home />
+              <ProductDetails />
             </MainLayout>
           }
         ></Route>
